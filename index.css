@@ -1,0 +1,74 @@
+/* Mengatur dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Mengatur gaya header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Mengatur gaya h3 dalam header */
+header h3 {
+    margin: 0;
+}
+
+/* Mengatur gaya untuk navigasi */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+/* Mengatur gaya untuk setiap item dalam navigasi */
+nav ul li {
+    display: inline;
+}
+
+/* Mengatur gaya untuk link dalam navigasi */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Mengatur gaya untuk link dalam navigasi ketika mouse melayang di atasnya */
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Mengatur gaya untuk kontainer notifikasi */
+.notif {
+    margin: 20px;
+    padding: 10px;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+/* Mengatur gaya untuk pesan dalam notifikasi */
+.notif p {
+    margin: 0;
+    color: #31708f;
+}
+
+/* Mengatur gaya untuk pesan sukses */
+.notif .sukses {
+    border-color: #4CAF50;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+/* Mengatur gaya untuk pesan gagal */
+.notif .gagal {
+    border-color: #f44336;
+    color: #a94442;
+    background-color: #f2dede;
+}
